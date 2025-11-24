@@ -33,7 +33,7 @@ jobs:
     - name: Criar uma pasta
       run: |
         echo "Hello ${{ inputs.name }}"
-        echo "${{ secrets.PASS }}"
+        echo "${{ secrets.TEST }}"
         mkdir ${{ inputs.name }}
         ls -l
         pwd
